@@ -1,0 +1,248 @@
+*, *:after, *:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+	margin: 0;
+}
+.header{
+	background-color: #f8f8f8;
+	padding-top: 45px;
+	padding-bottom: 145px;
+}
+.header__top{
+	margin-bottom: 100px;
+}
+.container{
+	max-width: 1140px;
+	margin: auto;
+}
+
+.top{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+.logo{
+	font-size: 18px;
+	font-weight: 800;
+}
+.nav{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.nav__item{
+	margin-right: 20px;
+	font-size: 14px;
+}
+.nav__item:last-child{
+	margin-right: 0;
+}
+.nav__item a{
+	text-decoration: none;
+	color: #000;
+}
+.phone{
+	font-size: 16px;
+	font-weight: 800;
+	color: #000;
+	text-decoration: none;
+}
+
+.header-content{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-between;
+}
+.header-content__text{
+	flex-basis: 45%;
+}
+.header-content__image{
+	max-width: 600px;
+}
+.header-content__title{
+	font-size: 58px;
+	margin-bottom: 20px;
+}
+.header-content__description{
+	font-size: 17px;
+	line-height: 160%;
+	margin-bottom: 40px;
+}
+.button{
+	background-color: #ff6c6c;
+	color: #fff;
+	font-size: 18px;
+	line-height: 160%;
+	padding: 15px 56px;
+	border: none;
+	border-radius: 4px;
+}
+.button--shadow{
+	box-shadow: 0px 10px 25px rgba(255, 108, 108, 0.5);
+}
+
+.section{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.section__title{
+	margin-bottom: 50px;
+}
+.cards{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.card{
+	flex-basis: 25%;
+	background-color: #f8f8f8;
+	box-shadow: 0px 4px 4px rgba(104, 104, 104, 0.1);
+	border-radius: 5px;
+	text-align: center;
+	padding: 30px;
+}
+.goods__card{
+	margin-bottom: 30px;
+}
+.card__image{
+	margin-bottom: 28px;
+}
+.card__text{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	margin-bottom: 28px;
+}
+.card__title{
+	font-size: 16px;
+	text-align: left;
+	max-width: 200px;
+}
+.card__price{
+	font-size: 36px;
+}
+.card__button{
+	width: 100%;
+}
+
+.review__cards{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.review-card{
+	padding: 20px 30px;
+	background: #FFFFFF;
+	border: 1px solid #EDEDED;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(131, 131, 131, 0.25);
+	border-radius: 10px;
+	flex-basis: 24%;
+}
+.review-card__title{
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.review-card__text{
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.footer{
+	background-color: #f8f8f8;
+}
+.contacts{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.form{
+	flex-basis: 45%;
+}
+.map{
+	flex-basis: 50%;
+}
+.input{
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(217, 217, 217, 0.25);
+	border-radius: 5px;
+	border: none;
+	padding: 25px 30px;
+	font-size: 14px;
+}
+.form__inputs{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.form__input{
+	width: 47%;
+	margin-bottom: 30px;
+}
+.form__textarea{
+	margin-bottom: 30px;
+	display: block;
+	width: 100%;
+}
+.form__buttons{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+}
+.form__button{
+	font-size: 17px;
+	padding: 15px 55px;
+}
+.social{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.social__link{
+	text-decoration: none;
+	margin-left: 22px;
+}
